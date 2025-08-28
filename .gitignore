@@ -1,0 +1,21 @@
+# Maven
+/target/
+/.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.project
+.classpath
+.settings/
+.buildpath
+
+# IntelliJ (혹시 열었을 경우)
+*.iml
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/

@@ -1,4 +1,6 @@
-/* =========== 헤더 ============ */
+/* ====================================== */
+/* 헤더                                    */
+/* ====================================== */
 body {
   margin: 80px 0 0;
   background: var(--color-bg-main);
@@ -74,7 +76,7 @@ header .link-wrap a {
   transition: all 0.2s ease;
 }
 header .link-wrap a:first-child {
-  border: 1px solid var(--text-color-gray);
+  border: 1px solid var(--color-text-sub2);
   transition: 0.3s;
 }
 header .link-wrap a:first-child:hover {
@@ -230,8 +232,13 @@ header .menu-divider {
   background: var(--color-bg-main);
   margin: 5px 0;
 }
+/* ====================================== */
+/* 헤더 끝                                  */
+/* ====================================== */
 
-/* =========== 푸터 ============ */
+/* ====================================== */
+/* 푸터                                    */
+/* ====================================== */
 footer {
   padding: 40px 0;
   position: relative;
@@ -316,8 +323,14 @@ footer .footer-bottom ul li {
   letter-spacing: -0.3px;
   color: #88898a;
 }
+/* ====================================== */
+/* 푸터 끝                                  */
+/* ====================================== */
 
-/* =========== 모바일 메뉴 ============ */
+
+/* ====================================== */
+/* 모바일 메뉴                               */
+/* ====================================== */
 .mobile-menu {
   display: none;
   flex-direction: column;
@@ -364,7 +377,7 @@ footer .footer-bottom ul li {
   background: var(--color-bg-white);
   z-index: 999;
   transition: right 0.6s ease, opacity 0.6s ease;
-  box-shadow: -5px 0 30px rgba(0, 0, 0, 0.3);
+  box-shadow: var(--color-shadow-default);
   opacity: 0;
 }
 .mobile-panel.active {
@@ -448,8 +461,13 @@ footer .footer-bottom ul li {
   background: var(--color-bg-point);
   color: var(--background-main);
 }
+/* ====================================== */
+/* 모바일 메뉴 끝                             */
+/* ====================================== */
 
-/* =========== 게시글 공통 레이아웃 ============ */
+/* ====================================== */
+/* 게시글 공통 레이아웃                        */
+/* ====================================== */
 .content-wrap {
   max-width: 1600px;
   display: flex;
@@ -494,7 +512,6 @@ footer .footer-bottom ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /*margin-bottom: 8px;*/
 }
 .content-wrap .post-item-header {
   display: flex;
@@ -554,7 +571,14 @@ footer .footer-bottom ul li {
 .content-wrap .post-title .important {
   color: var(--background-main);
 }
-/* =========== 미디어쿼리 ============ */
+/* ====================================== */
+/* 게시글 공통 레이아웃 끝                      */
+/* ====================================== */
+
+
+/* ====================================== */
+/* 미디어 쿼리                               */
+/* ====================================== */
 @media screen and (max-width: 1800px) {
   header {
     padding: 0 100px;
@@ -632,3 +656,6 @@ footer .footer-bottom ul li {
     padding: 0 0 15px 0;
   }
 }
+/* ====================================== */
+/* 미디어 쿼리 끝                            */
+/* ====================================== */

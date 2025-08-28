@@ -1,9 +1,6 @@
-
-/*===== 기본 세팅 =====*/
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* ====================================== */
+/* 기본 셋팅                                */
+/* ====================================== */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -34,7 +31,6 @@ textarea {
 button {
 	cursor: pointer;
 }
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -64,8 +60,11 @@ table {
 html {font-family: 'Inter', sans-serif;}
 
 @supports (font-variation-settings: normal) {html {font-family: 'Inter var', sans-serif;}}
-:root {
 
+/* ====================================== */
+/* 사용하는 색상 모음                         */
+/* ====================================== */
+:root {
 	/* 기본컬러 */
 	--background-main: #2e86de;
 	--background-main-hover: #146cc4;
@@ -98,5 +97,4 @@ html {font-family: 'Inter', sans-serif;}
 
 	/* 그림자 */
 	--color-shadow-default: 0px 1px 4px 0px rgba(0, 0, 0, 0.3);
-
 }

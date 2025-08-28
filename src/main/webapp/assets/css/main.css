@@ -1,16 +1,37 @@
-/* =========== 랭킹 ============ */
+/* ====================================== */
+/* 랭킹 정보                                */
+/* ====================================== */
 #main.content-wrap {
   height: calc(100vh - 120px);
   margin-bottom: 0;
+  position: relative;
 }
 #main .rank-wrap {
   padding: 10px;
   order: -1;
   flex: 0 0 230px;
+  top: 40px;
+  position: sticky;
   transition: all 0.3s ease-in-out;
 }
 #main .rank-wrap.fixed {
   position: fixed;
+  top: 120px;
+  left: 160px;
+  width: 230px; 
+  height: auto; 
+}
+#main .rank-wrap {
+  padding: 10px;
+  flex: 0 0 230px;
+  transition: all 0.3s ease-in-out;
+}
+#main .rank-placeholder {
+  display: none; 
+  flex: 0 0 230px;
+}
+#main .rank-placeholder.visible {
+  display: block; 
 }
 #main .rank-wrap .title {
   height: 40px;
@@ -92,7 +113,13 @@
   width: 15%;
   order: 0;
 }
-/* =========== 게시글 ============ */
+/* ====================================== */
+/* 랭킹 정보 끝                              */
+/* ====================================== */
+
+/* ====================================== */
+/* 게시글 정보                               */
+/* ====================================== */
 #main .board-wrap {
   max-width: 1024px;
   width: 100%;
@@ -119,8 +146,13 @@
 #main .qna {
   margin-bottom: 30px;
 }
+/* ====================================== */
+/* 게시글 정보                               */
+/* ====================================== */
 
-/* =========== 미디어쿼리 ============ */
+/* ====================================== */
+/* 미디어 쿼리                               */
+/* ====================================== */
 @media screen and (max-width: 1800px) {
   #main .empty-wrap {
     display: none;
@@ -161,3 +193,6 @@
     margin-bottom: 30px;
   }
 }
+/* ====================================== */
+/* 미디어 쿼리 끝                             */
+/* ====================================== */

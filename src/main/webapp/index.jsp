@@ -1,5 +1,4 @@
 <%@ page contentType="text/html;charset=utf-8" import="java.sql.*"%>
-<%@ taglib prefix="c" uri="jakarta.tags.core" %>
 
 <!DOCTYPE html>
 <html lang="en">

@@ -1,6 +1,6 @@
 package gotit.auth;
 
-import gotit.model.user;
+import gotit.model.User;
 
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
@@ -9,6 +9,7 @@ import java.sql.*;
 import java.util.Optional;
 
 public class AuthDao {
+	/*
 	private final DataSource ds;
 	
 	public static AuthDao fromJndi() {
@@ -26,5 +27,5 @@ public class AuthDao {
 		DataSource ds = (DataSource) sc.getAttribute("dataSource");
 		if (ds = null) return fromJndi();
 	}
-
+*/
 }
